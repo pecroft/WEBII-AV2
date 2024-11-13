@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="interface">
+    <header id="cabecalho">
+      <img src="https://cdn.dooca.store/42073/files/animalie-logo-topo-200x800-png.png?v=1653859735"
+        alt="Logo Instinto Animal">
+      <input type="text" id="search" placeholder="Olá, o que você procura?">
+      <nav id="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="produto.html">Produtos</a></li>
+          <li><a href="contato.html">Conta</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+
+  <section id="corpo">
+    <div id="carrossel">
+      <div class="carrossel-item active">
+        <img src="https://cdn.dooca.store/42073/files/banner-11.png?v=1730463017" alt="Imagem 1">
+      </div>
+      <div class="carrossel-item">
+        <img src="https://cdn.dooca.store/42073/files/banner-13-1.png?v=1730463061&webp=0" alt="Imagem 2">
+      </div>
+      <div class="carrossel-item">
+        <img src="https://cdn.dooca.store/42073/files/banner-12-1.png?v=1730463037&webp=0" alt="Imagem 3">
+      </div>
+      <button class="prev" onclick="mudarImagem(-1)">&#10094;</button>
+      <button class="next" onclick="mudarImagem(1)">&#10095;</button>
+    </div>
+
+    <div class="caixas-texto">
+      <div class="caixa">
+        <img src="https://cdn.dooca.store/1157/files/903eui30uf89awhj3ed9uqj92eu.svg?v=1617636396" alt="Pague Parcelado"
+          class="icone">
+        <h2>Pague parcelado</h2>
+        <p>Até 3X S/ Juros</p>
+      </div>
+      <div class="caixa">
+        <img src="https://cdn.dooca.store/1157/files/w245ew5fm809wsv9.svg?v=1617636420" alt="Entrega Garantida"
+          class="icone">
+        <h2>Entrega garantida</h2>
+        <p>Para todo o Brasil</p>
+      </div>
+      <div class="caixa">
+        <img src="https://cdn.dooca.store/1157/files/seguranca.svg?v=1572370672" alt="Compra Segura" class="icone">
+        <h2>Compra 100% segura</h2>
+        <p>Seus dados protegidos</p>
+      </div>
+      <div class="caixa">
+        <img src="https://cdn.dooca.store/42073/files/tag-desconto-icone-personalizacao-home.jpg?v=1653354326"
+          alt="Estampas Digitais" class="icone">
+        <h2>Estampas digitais</h2>
+        <p>Itens personalizados para pets</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Trabalho Final - Pedro Rolim e Breno Daher</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

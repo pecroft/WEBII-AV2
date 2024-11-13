@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Cabeçalho */
+  header#cabecalho {
+    border-bottom: 1px solid #000000;
+    background-color: #ffffff;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+    margin-top: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header#cabecalho img {
+    height: 90px;
+    width: auto;
+    display: block;
+    margin-right: 0;
+  }
+  
+  header#cabecalho input[type="text"] {
+    width: 500px;
+    padding: 8px;
+    font-size: 16px;
+    margin: 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  nav#menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  nav#menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 130%;
+  }
+  
+  nav#menu li {
+    padding: 10px;
+  }
+  
+  nav#menu a {
+    color: #4e4e4e;
+    text-decoration: none;
+    font-weight: bold;
+  
